@@ -6,12 +6,12 @@ require 'eventmachine'
 require 'frankenpins'
 require 'faye'
 
-NEXT_STATION_BUTTON_PIN = 2
-PREV_STATION_BUTTON_PIN = 0
-ROTARY_ENCODER_PIN_A    = 4
-ROTARY_ENCODER_PIN_B    = 5
-ON_OFF_BUTTON_PIN       = 3
-AVOID_BUTTON_PIN        = 1
+NEXT_STATION_BUTTON_PIN = 0
+PREV_STATION_BUTTON_PIN = 6
+ROTARY_ENCODER_PIN_A    = 5
+ROTARY_ENCODER_PIN_B    = 4
+ON_OFF_BUTTON_PIN       = 7
+AVOID_BUTTON_PIN        = 3
 
 # Get foreman not to buffer logging output
 $stdout.sync = true
